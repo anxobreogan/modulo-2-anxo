@@ -44,8 +44,7 @@ let menu = {
 
 for (key in menu) {
   // alert(typeof menu[key]);
-  if (typeof menu[key] == "string") {
-  } else {
+  if (typeof menu[key] == "number") {
     alert(menu[key] * 2);
   }
 }
