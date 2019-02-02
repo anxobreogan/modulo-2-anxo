@@ -61,15 +61,15 @@ alert("dkjakjfjajañjaj");
 
 result = confirm("jakjfajdjfañj");*/
 
+// let codigo;
 
-let codigo;
+// if (codigo>0){
 
-if (codigo>0){
+//     alert();
+// }elseif{
 
-    alert();
-}elseif{
+// }
 
+let name = "Anxo";
 
-}
-
-
+alert(name);

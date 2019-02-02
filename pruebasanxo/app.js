@@ -91,18 +91,30 @@
 //   }
 // }
 
-let x = prompt("introduce x ", 0);
+// let x = prompt("introduce x ", 0);
 
-let n = prompt("introduce n ", 0);
+// let n = prompt("introduce n ", 0);
 
-let resultado;
+// let resultado;
 
-function pow(x, n) {
-  for (n = 1; x < n; n++) {
-    resultado = x * x;
+// function pow(x, n) {
+//   for (n = 1; x < n; n++) {
+//     resultado = x * x;
 
-    return x;
-  }
+//     return x;
+//   }
+// }
+
+// console.log(pow(5, 2));
+
+function User(name) {
+  this.name = name;
+  this.isAdmin = isAdmin;
+  this.isOldEnough = true;
 }
 
-console.log(pow(5, 2));
+let user = new User("Jack", true);
+let user2 = new User("pepe", false);
+
+alert(user.name);
+alert(user.isAdmin);

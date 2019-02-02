@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Nombre y edad</h1>
-    <script>
+    <!-- <script>
       /*let nombreUsario; // El nombre de la persona que quiere jugar.
       let edad; // Edad del usuario que quiere jugar.
 
@@ -80,6 +80,19 @@
 
       alert(`hola ${variablecondolar}`);
       alert(`hola ${"variablecondolar"}`);*/
+    </script> -->
+    <script>
+      function User(name) {
+        this.name = name;
+        this.isAdmin = isAdmin;
+        this.isOldEnough = true;
+      }
+
+      let user = new User("Jack", true);
+      let user2 = new User("pepe", false);
+
+      alert(user.name);
+      alert(user.isAdmin);
     </script>
   </body>
   <!-- <script src="animation.js"></script> -->
