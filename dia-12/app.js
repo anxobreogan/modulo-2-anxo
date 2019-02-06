@@ -173,8 +173,66 @@ console.log(a);
 
 //////////////////////////////////////////////////////////////
 
-let dia = ["su", "mo", "tu", "we", "th", "fr", "sa"];
+/* let dia = ["su", "mo", "tu", "we", "th", "fr", "sa"];
 
 let fecha = new Date(2012, 0, 3);
 
-alert(dia[fecha.getDay()]);
+alert(dia[fecha.getDay()]); */
+
+/////////////////////////////////////////////////////////////////
+/* function getEuropeanDate(date) {
+  let date = new Date();
+
+  let arr = [
+    "noday",
+    "lunes",
+    "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sabado",
+    "domingo"
+  ];
+
+  return arr[date.getDate()];
+}
+
+alert(getEuropeanDate((2015, 2, 6))); */
+
+////////////////////////////////////////////////////////////
+
+/* let date = new Date();
+
+// alert(date);
+
+let day = 2;
+alert(date.getDate() - day);
+alert(date.getFullYear() - day);
+// alert(date.getMonth() - day);
+// alert(date.getMonth() - 3);
+date.setDate(date.getMonth() - day);
+alert(date.getMonth()); */
+
+///////////////////////////////////////////////////////
+
+// let date = new Date(2019, 1, 4);
+// let dateNow = new Date();
+
+// console.log(date.getHours());
+// console.log(dateNow.getHours() - date.getHours());
+
+//////////////////////////////////////////////////////////////////
+
+// function horasMañana() {
+//   let date = new Date();
+
+//   // alert(date.getHours());
+
+//   let b = 24 - date.getHours();
+
+//   return b;
+// }
+
+// alert(horasMañana(2019, 1, 4));
+
+
